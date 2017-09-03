@@ -1,0 +1,6 @@
+runtime: custom
+env: flex
+
+endpoints_api_service:
+  name: api-sample.endpoints.sondrago-blue.cloud.goog
+  config_id: 2017-03-23r0

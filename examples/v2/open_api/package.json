@@ -1,0 +1,29 @@
+{
+  "name": "swagger_type_registry_sample",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "@google-cloud/datastore": "^0.6.1",
+    "chai-string": "^1.2.0",
+    "js-yaml": "^3.6.1",
+    "level": "^1.4.0",
+    "node-uuid": "^1.4.7",
+    "restify": "^4.0.2",
+    "swagger-restify-mw": "^0.1.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "supertest": "^1.0.0",
+    "chai": "^3.5.0",
+    "should": "^9.0.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
